@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Roboto:ital,wght@0,400;1,100;1,400;1,500&display=swap');
+
+@media(max-width: 300px) {
+    .big {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media(max-width: 300px) {
+    .card {
+        display: flex;
+        text-align: center;
+    }
+}
+
+body {
+    background: rgb(77, 26, 125);
+    background-image: url(fon2.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    font: normal 25px 'Grape Nuts', cursive;
+}
+
+h3 {
+    color: rgb(72, 9, 79);
+    margin-left: 50px;
+    text-shadow: -1px -1px 2px rgb(241, 221, 234);
+}
+
+.big {
+    margin: auto;
+    margin-top: 50px 50px;
+    width: 75%;
+    max-width: 75%;
+}
+
+.info {
+    display: flex;
+    margin: 30px;
+    padding: 25px 30px 20px 25px;
+    margin-bottom: 20px;
+    /* border: 3px solid white; */
+}
+
+.info h1 {
+    color: rgb(72, 9, 79);
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: -4px -3px 5px rgb(241, 221, 234);
+    padding-bottom: 30px;
+}
+
+.info p {
+    padding-left: 20px;
+    word-spacing: 10px;
+    text-indent: 25px;
+}
+
+
+
+.text {
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.avatar {
+    width: 250px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    box-shadow: -9px 2px 14px 7px rgb(241, 221, 234);
+}
+
+.story {
+    margin: 20px 30px;
+    padding: 10px 20px 10px 30px;
+    border-bottom: 2px solid rgb(182, 99, 191);
+    border-top:  2px solid rgb(182, 99, 191);
+}
+
+.story p {
+    word-spacing: 5px;
+    font-size: x-large;
+    color: rgb(224, 193, 226);
+    text-indent: 25px;
+}
+
+.card {
+    display: flex;
+    margin: auto;
+    padding: 10px 20px;
+    margin-left: 60px;
+}
+
+.card h3 {
+    text-align: center;
+}
+
+.list li {
+    word-spacing: 5px;
+    font-size: x-large;
+    color: rgb(224, 193, 226);
+    padding-left: 20%;
+}
+
+/* иконка */
+li:before {
+    content: url(http://s1.iconbird.com/ico/0912/fugue/w16h161349012918rainbow.png);
+    position: relative;
+    left: -10px;
+}
+
+.list {
+    list-style: none;
+}
+
+.hobby, 
+.plans {
+    width: 45%;
+    border: 2px solid rgb(224, 193, 226);
+    margin: 15px 20px 30px 0px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.work {
+    margin: 0px 30px 20px 20px;
+    padding: 20px 0px 10px 0px;
+    text-align: center;
+    text-decoration: underline;
+    border-top:  2px solid rgb(182, 99, 191);
+}
+
+.table {
+    margin: auto;
+    text-align: center;
+    width: 90%;
+    border: 2px solid rgb(241, 221, 234);
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+
+.table th {
+    text-shadow: -1px -1px 2px rgb(241, 221, 234);
+    word-spacing: 5px;
+    font-size: x-large;
+    text-indent: 25px;
+    color: #000;
+    background: linear-gradient(rgb(182, 99, 191), rgb(241, 221, 234));
+}
+
+.table th:nth-child(4) {
+    border-top-right-radius: 40px;
+}
+
+.table td {
+    padding-bottom: 10px;
+    word-spacing: 5px;
+    font-size: x-large;
+    color: rgb(224, 193, 226);
+    text-indent: 25px;
+}
+
+.table td:nth-child(1),
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    border-right: 1px dashed rgb(224, 193, 226);
+}
+.table td:nth-child(2),
+.table td:nth-child(3),
+.table td:nth-child(4) {
+    border-left: 1px dashed rgb(224, 193, 226);
+}
+
+.contact {
+    margin: 40px 30px 10px 30px;
+    padding: 0px 20px 30px 30px;
+    border-bottom: 2px solid rgb(182, 99, 191);
+    border-top:  2px solid rgb(182, 99, 191);
+}
+
+.contact h3 {
+    text-align: center;
+}
+
+.form label {
+    display: block;
+    word-spacing: 5px;
+    font-size: x-large;
+    color: rgb(224, 193, 226);
+    text-indent: 25px;
+}
+
+.form input,
+.form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border: 2px solid rgb(182, 99, 191);
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+    background: linear-gradient(rgb(182, 99, 191, 0.5), rgb(72, 9, 79, 0.5));
+}
+
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row >.form {
+    width: 50%;
+} 
+
+.row >.form:first-child {
+    margin-right: 20px;
+}
+
+.btn {
+    padding: 10px 30px;
+    font-family: inherit;
+    cursor: pointer;
+    border: none;
+    font-size: x-large;
+    color: rgb(72, 9, 79);
+    background: linear-gradient(rgb(182, 99, 191), rgb(241, 221, 234));
+}
+
+.position {
+    position: relative;
+}
+
+.box {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 70px;
+    height: 100%;
+    box-shadow: 10px 9px 14px 7px rgb(241, 221, 234);
+    background: rgba(77, 26, 125, 0.8);
+}
+
+.rtu {
+    text-align: center;
+    color: rgb(224, 193, 226);
+    margin-bottom: 20px;
+}
+
+a {
+    color: rgb(241, 221, 234);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: line-through;
+}
+
+a:active {
+    color: rgb(224, 193, 226);
+}
+
+
+
